@@ -1,0 +1,268 @@
+html {
+	 font-size: 10px;
+	 font-family: sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    height: 100%;
+    background-size: 118%;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+.perfil-cuadro.perfil {
+   width: 350px;
+   padding: 40px 40px;
+    z-index: 0;
+     opacity: 0.7;
+
+}
+
+.perfil {
+    background-color: #F7F7F7;
+    /*padding: 20px 25px 30px;*/
+    margin: 0 auto 25px;
+    margin-top: 150px;
+    /*-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;*/
+    border-radius: 2px;
+    /*-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);*/
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+.perfil-imagenes {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    /*-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;*/
+    border-radius: 50%;
+    z-index: 0;
+     opacity: 0.7;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-signin input[type=text],
+.form-signin input[type=password],
+.form-signin input {
+    /*width: 100%;*/
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    /*-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;*/
+    box-sizing: border-box;
+}
+
+.form-control {
+
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(204, 204, 204);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+
+}
+input{
+	margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font: inherit;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+
+}
+input[type="submit"].btn-block{
+    width: 100%;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+
+}
+
+.btn {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    user-select: none;
+    background-image: none;
+}
+
+.btn.btn-signin {
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    /*-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;*/
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -o-transition: all 0.218s;
+    /*-moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;*/
+    transition: all 0.218s;
+    transition-property: all;
+    transition-duration: 0.218s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+.btn-success {
+    color: #fff;
+    background-color: #dd4b39;
+    /*border-color: #4cae4c;*/
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    /*padding: 10px 16px;
+    font-size: 18px;*/
+    line-height: 1.3333333;
+    /*border-radius: 6px;*/
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    border-top-color: rgb(102, 175, 233);
+    border-right-color: rgb(102, 175, 233);
+    border-bottom-color: rgb(102, 175, 233);
+    border-left-color: rgb(102, 175, 233);
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+
+.btn-success:active:hover, 
+.btn-success:active:focus {
+	color: #fff;
+    border-color: #9e312f;
+    border-top-color: rgb(158, 49, 47);
+    border-right-color: rgb(158, 49, 47);
+    border-bottom-color: rgb(158, 49, 47);
+    border-left-color: rgb(158, 49, 47);
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+    outline-offset: -2px;
+}
+
+btn-success:active {
+    background-image: none;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+    text-decoration: none;
+}
