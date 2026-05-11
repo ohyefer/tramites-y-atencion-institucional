@@ -1,0 +1,35 @@
+
+html {
+	 font-size: 10px;
+	 font-family: sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.cabecera1{ 
+
+background-color: yellow;
+
+}
+
+
+.cabecera2{
+  
+background-color: deepskyblue;
+
+}
+
+
+.cabecera3{
+  
+
+background-color: red;
+
+}
+
+
+.cabecera4{
+  
+
+background-color: green;
+
+}
